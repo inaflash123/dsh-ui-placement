@@ -1,0 +1,15 @@
+# dsh-ui-placement bundle layer.
+#
+# One Host row, mounted as `dsh-ui-placement`. It contributes no service and no
+# route: its whole job is one `style` row into the page head through
+# `webserver/index-inject`, which is why this bundle needs no Client half.
+#
+# The row id is what the loader uses to address the entry, and what the
+# Settings/Plugins list shows. Keep it equal to the package name — the
+# awesome-dsh-plugin submission check matches a listed plugin's entry id against
+# its package name, and a bare name that differs gets rejected as
+# SUBMISSION_ENTRY_MISSING.
+
+- insert:
+    - id: dsh-ui-placement
+      name: dsh-ui-placement

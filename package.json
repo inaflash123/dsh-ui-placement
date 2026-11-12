@@ -1,0 +1,38 @@
+{
+  "name": "dsh-ui-placement",
+  "version": "0.1.0",
+  "description": "Two placement fixes for the Harness Web page: the question panel's Skip and Submit buttons move in from the right edge, and the composer steps clear of the bottom-right desktop pet. · DSH 网页界面两处位置修正：提问卡的「跳过 / 提交」从贴右边收到中间偏右，输入区左移让开右下角的桌面宠物。",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "ui",
+    "layout",
+    "css",
+    "composer",
+    "question-panel",
+    "placement"
+  ],
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

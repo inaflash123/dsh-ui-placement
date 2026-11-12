@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "UI placement",
+    "description": "Moves the question panel's Skip and Submit buttons in from the right edge, and steps the composer column left so its controls stay clear of a bottom-right desktop pet."
+  }
+}
