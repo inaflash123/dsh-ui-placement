@@ -33,13 +33,13 @@ Two placement fixes for the DeepSeek Harness Web page, shipped as one stylesheet
 ## 安装
 
 ```sh
-dsh plugin --profile <profile> add https://github.com/<owner>/dsh-ui-placement/releases/download/v0.1.0/dsh-ui-placement-0.1.0.tgz
+dsh plugin --profile <profile> add https://github.com/inaflash123/dsh-ui-placement/releases/download/v0.1.0/dsh-ui-placement-0.1.0.tgz
 ```
 
 或从源码目录：
 
 ```sh
-dsh plugin --profile <profile> add github:<owner>/dsh-ui-placement
+dsh plugin --profile <profile> add github:inaflash123/dsh-ui-placement
 ```
 
 桌面端（DSH Desktop）的 profile 由应用自己的插件管理器独占，请用应用内的 **设置 → 插件** 安装，不要用命令行指向 `desktop`。

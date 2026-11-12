@@ -33,13 +33,13 @@ Resized or moved the pet? Change this one value. Want it off? Set it to `0px`, o
 ## Install
 
 ```sh
-dsh plugin --profile <profile> add https://github.com/<owner>/dsh-ui-placement/releases/download/v0.1.0/dsh-ui-placement-0.1.0.tgz
+dsh plugin --profile <profile> add https://github.com/inaflash123/dsh-ui-placement/releases/download/v0.1.0/dsh-ui-placement-0.1.0.tgz
 ```
 
 Or straight from the repo:
 
 ```sh
-dsh plugin --profile <profile> add github:<owner>/dsh-ui-placement
+dsh plugin --profile <profile> add github:inaflash123/dsh-ui-placement
 ```
 
 DSH Desktop manages its own `desktop` profile — install through **Settings → Plugins** in the app instead of pointing the CLI at it.
